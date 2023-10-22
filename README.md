@@ -51,9 +51,8 @@ B3) Chúng ta không muốn ai cũng có thể push code trực tiếp lên bran
 Require a pull request before merging (Bắt buộc phải tạo pull request nếu muốn merge code vào branch main)
 Require a status check to pass before merging (Kiểm tra các cái status hay chính là các cái job của chúng ta xem có cài nào bị failed hay không. 
 Tất cả các cái job phải pass hết thì mới được merge)
-Ở mục Search for status checks in the last week for this repository: Nhập tên của các cái job mà ta muốn đảm bảo là nó phải pass (thành công) vô (Mỗi lần nhập xong 1 cái job bấm enter để nhập cái job tiếp theo)
+Ở mục Search for status checks in the last week for this repository: Nhập tên của các cái job mà ta muốn đảm bảo là nó phải pass (thành công) vô 
 VD: 
-build (14.x)
 build (16.x)
 build (18.x)
 Bấm Create
