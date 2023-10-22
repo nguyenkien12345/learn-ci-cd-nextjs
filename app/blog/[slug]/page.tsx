@@ -9,5 +9,10 @@ export async function generateMetadata({ params }: Params) {
 }
 
 export default function Page({ params }: Params) {
-  return <><h1>Slug: {params.slug}</h1><p>Nguyễn Trung Kiên Và Mai Thị Thanh Thúy</p></>
+  return <>
+      <h1>Slug: {params.slug}</h1>
+      <h2>Liverpool Fc</h2>
+      <p>Nguyễn Trung Kiên Và Mai Thị Thanh Thúy</p>
+      <p>PIVOT AND WOLF SOLUTIONS</p>
+  </>
 }
