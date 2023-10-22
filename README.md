@@ -35,6 +35,7 @@ npm test
 ```
 
 <!-- CI CD -->
+npm install -> npm run dev -> Trong file package.json: Sửa dòng code: "test": "jest --watch" thành "test": "jest --coverage" -> npm run test
 B1) Vào dự án Github
 B2) Trên thanh menu -> Chọn Actions -> Do ta đẩy dự án với môi trường nodejs (react, angular, next, vue,...) nên ta sẽ chọn
 Node.js (Build and test a Node.js with npm) -> Bấm Configure (Đây là những workflows đã được xây dựng sẵn, nhiệm vụ của chúng ta là sử dụng lại)
