@@ -14,5 +14,6 @@ export default function Page({ params }: Params) {
       <h2>Liverpool Fc</h2>
       <p>Nguyễn Trung Kiên Và Mai Thị Thanh Thúy</p>
       <p>PIVOT AND WOLF SOLUTIONS</p>
+      <p>HELLO</p>
   </>
 }
